@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - 'broken/**'
 
 jobs
   test:
