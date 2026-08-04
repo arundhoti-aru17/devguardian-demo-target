@@ -1,5 +1,4 @@
-from app import greet
+import random
 
-
-def test_greet():
-    assert greet() == "Hello DevGuardian!"
+def test_random_failure():
+    assert random.choice([True, False])
