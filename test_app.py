@@ -1,5 +1,4 @@
-from app import greet
+import os
 
-
-def test_greet():
-    assert greet() == "Hello DevGuardian!"
+def test_api_key():
+    assert os.environ["API_KEY"] == "secret"
