@@ -9,3 +9,4 @@ It contains intentionally broken branches that DevGuardian will diagnose and fix
 - Simulate CI/CD failures
 - Generate GitHub Actions logs
 - Test DevGuardian AI agents
+# trigger
