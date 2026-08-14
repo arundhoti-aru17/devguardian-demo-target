@@ -7,7 +7,7 @@ on:
       - 'broken/**'
 
 jobs:
-  test:
+  test
 
     runs-on: ubuntu-latest
 
