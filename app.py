@@ -1,3 +1,3 @@
-def greet()
+def greet(
     return "Hello DevGuardian!"
 # hey bbbbbbb
