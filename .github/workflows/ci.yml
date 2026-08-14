@@ -7,7 +7,7 @@ on:
       - 'broken/**'
 
 jobs:
-
+  test:
     runs-on: ubuntu-latest
 
     steps:
@@ -25,4 +25,3 @@ jobs:
       - name: Run Tests
         run: |
           pytest
-  test:
